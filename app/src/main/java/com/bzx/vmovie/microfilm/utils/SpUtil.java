@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 /**
- * Describe:用来操作SharedP[references的工具类
+ * Describe:用来操作SharedPreferences的工具类
  * Created by bzx on 2018/8/13/013
  * Email:seeyou_x@126.com
  */
