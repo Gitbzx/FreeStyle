@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav1"
+        android:icon="@mipmap/side_recommend"
+        android:title="了解会员特权" />
+
+    <item
+        android:id="@+id/nav2"
+        android:icon="@mipmap/side_series_"
+        android:title="QQ钱包" />
+
+    <item
+        android:id="@+id/nav3"
+        android:icon="@mipmap/side_channel_"
+        android:title="个性装扮" />
+
+    <item
+        android:id="@+id/nav4"
+        android:icon="@mipmap/side_behind_"
+        android:title="我的收藏" />
+
+    <item
+        android:id="@+id/nav5"
+        android:icon="@mipmap/side_home_"
+        android:title="我的相册" />
+
+    <item
+        android:id="@+id/nav6"
+        android:icon="@mipmap/side_home_"
+        android:title="手势密码" />
+
+    <item
+        android:id="@+id/nav7"
+        android:icon="@mipmap/side_home_"
+        android:title="拍照" />
+
+</menu>

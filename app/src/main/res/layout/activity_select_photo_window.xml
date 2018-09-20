@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_photo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000">
+
+        <LinearLayout
+            android:id="@+id/select_photo_ll_take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shap_white">
+            <TextView
+                android:id="@+id/btn_take_photo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#333333"
+                android:text="拍照"
+                android:textSize="15sp"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e0e0e0"/>
+
+            <TextView
+                android:id="@+id/btn_pick_photo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#333333"
+                android:text="相册选择"
+                android:textSize="15sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/select_photo_ll_take"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shap_white">
+            <TextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#333333"
+                android:text="取消"
+                android:textSize="15sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
